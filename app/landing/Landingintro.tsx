@@ -13,7 +13,7 @@ const greatVibes = Great_Vibes({
 export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
   const router = useRouter();
   return (
-    <div className="relative min-h-screen max-w-sm mx-auto flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen max-w-md mx-auto flex items-center justify-center overflow-hidden">
       {/* 1️⃣ Background utama */}
       <div className="absolute inset-0 bg-[url('/bgrnd.png')] bg-cover bg-center opacity-40 z-0"></div>
       

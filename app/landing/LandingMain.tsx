@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 export default function LandingMain({ onOpen }: { onOpen: () => void }) {
   const router = useRouter();
   return (
-    <div className="relative min-h-screen max-w-sm mx-auto flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen max-w-md mx-auto flex items-center justify-center overflow-hidden">
       {/* 1️⃣ Background utama */}
       <div className="absolute inset-0 bg-[url('/background.jpeg')] bg-cover bg-center z-0"></div>
 
@@ -49,11 +49,11 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
         </div>
 
       <div className="absolute inset-0 bg-white/0"></div>
-        <div className=" absolute top-[0px] right-[-0px] left-[-0px] z-10">
+        <div className=" absolute top-[25px] right-[-20px] left-[-0px] z-30">
           <img
             src="/bunga.png"
             alt="bunga bingkai"
-            className="w-50 h-auto mx-auto opacity-100 "
+            className="w-50 h-auto mx-auto opacity-100"
           />
         </div>
 
