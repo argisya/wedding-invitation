@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 export default function LandingMain({ onOpen }: { onOpen: () => void }) {
   const router = useRouter();
   return (
-    <div className="relative min-h-screen max-w-md mx-auto flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen max-w-md sm:max-w-lg md:max-w-xl mx-auto flex items-center justify-center overflow-hidden">
       {/* 1️⃣ Background utama */}
       <div className="absolute inset-0 bg-[url('/background.jpeg')] bg-cover bg-center z-0"></div>
 
@@ -17,7 +17,7 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
           <img
             src="/kupu-kupu.png"
             alt="kupu kupu"
-            className="w-50 h-auto mx-auto opacity-100 rotate-"
+            className="w-[200px] sm:w-[250px] md:w-[350px] lg:w-[450px] h-auto mx-auto opacity-100 "
           />
         </div>
 
@@ -26,7 +26,7 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
           <img
             src="/burung.png"
             alt="burung"
-            className="w-40 h-auto mx-auto opacity-100 "
+            className="w-[160px] sm:w-[210px] md:w-[310px] lg:w-[410px] h-auto mx-auto opacity-100 "
           />
         </div>
 
@@ -35,7 +35,7 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
           <img
             src="/Bingkai.png"
             alt="bingkai"
-            className="w-65 h-auto mx-auto opacity-100 "
+            className="w-[260px] sm:w-[310px] md:w-[410px] lg:w-[510px] h-auto mx-auto opacity-100 "
           />
         </div>
 

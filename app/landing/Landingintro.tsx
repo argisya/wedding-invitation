@@ -13,16 +13,16 @@ const greatVibes = Great_Vibes({
 export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
   const router = useRouter();
   return (
-    <div className="relative min-h-screen max-w-md mx-auto flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-screen w-full sm:max-w-md mx-auto flex items-center justify-center overflow-hidden">
       {/* 1️⃣ Background utama */}
-      <div className="absolute inset-0 bg-[url('/bgrnd.png')] bg-cover bg-center opacity-40 z-0"></div>
+      <div className="absolute inset-0 bg-[url('/bgrnd.png')] bg-cover bg-center bg-no-repeat opacity-40 z-0"></div>
       
         {/*  komponen ui */}
       <div className="absolute inset-0 flex items-center justify-center z-10 scale-120">
         <img
           src="/width_498.webp"
           alt="Gerbang Dekorasi"
-          className="w-[500px] md:w-[600px] h-auto opacity-35"
+          className="w-[500px] h-auto opacity-35"
         />
       </div>
 
@@ -36,7 +36,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[-188px] right-[-90px] left-[-0px] z-20">
+        <div className=" absolute top-[-188px] right-[-150px] left-[-0px] z-20">
           <img
             src="/Bunga merah 2.webp"
             alt="Ornament Atas"
