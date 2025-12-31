@@ -22,16 +22,16 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
         </div>
 
       <div className="absolute inset-0 bg-white/0"></div>
-        <div className=" absolute top-[150px] right-[-325px] left-[-0px] z-30">
+        <div className=" absolute top-[150px] right-[-325px] z-30">
           <img
             src="/burung.png"
             alt="burung"
-            className="w-[160px] sm:w-[210px] md:w-[310px] lg:w-[410px] h-auto mx-auto opacity-100 "
+            className="w-40sm:w-[210px] md:w-[310px] lg:w-[410px] h-auto mx-auto opacity-100 "
           />
         </div>
 
       <div className="absolute inset-0 bg-white/0"></div>
-        <div className=" absolute top-[90px] right-[-0px] left-[-0px] z-20">
+        <div className=" absolute top-[90px] z-20">
           <img
             src="/Bingkai.png"
             alt="bingkai"
@@ -40,7 +40,7 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
         </div>
 
       <div className="absolute inset-0 bg-white/0"></div>
-        <div className=" absolute top-[140px] right-[-0px] left-[-0px] z-10">
+        <div className=" absolute top-[140px]  z-10">
           <img
             src="/cpw.jpg"
             alt="foto bingkai"
@@ -49,7 +49,7 @@ export default function LandingMain({ onOpen }: { onOpen: () => void }) {
         </div>
 
       <div className="absolute inset-0 bg-white/0"></div>
-        <div className=" absolute top-[25px] right-[-20px] left-[-0px] z-30">
+        <div className=" absolute top-[25px] right-5px  z-30">
           <img
             src="/bunga.png"
             alt="bunga bingkai"

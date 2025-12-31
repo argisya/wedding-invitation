@@ -36,7 +36,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[-188px] right-[-150px] left-[-0px] z-20">
+        <div className=" absolute top-[-188px] right-[-150px]  z-20">
           <img
             src="/Bunga merah 2.webp"
             alt="Ornament Atas"
@@ -44,7 +44,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[-0px] right-[-10px] left-[-100px] z-30">
+        <div className=" absolute right-2.5 left-[-100px] z-30">
           <img
             src="/cloud.webp"
             alt="Ornament Atas"
@@ -52,7 +52,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[-120px] right-[-410px] left-[-10px] z-30">
+        <div className=" absolute top-[-120px] right-[-410px] left-2.5 z-30">
           <img
             src="/width_375.webp"
             alt="Ornament Atas"
@@ -60,7 +60,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[550px] right-[0px] left-[-300px] z-30 rotate-">
+        <div className=" absolute top-[550px] left-[-300px] z-30 rotate-">
           <img
             src="/width_375.webp"
             alt="Ornament Bawah"
@@ -68,7 +68,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[500px] right-[-200px] left-[-0px] z-30 rotate-">
+        <div className=" absolute top-[500px] right-[-200px] z-30 rotate-">
           <img
             src="/width_499.webp"
             alt="Ornament Bawah"
@@ -76,7 +76,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
 
-        <div className=" absolute top-[350px] right-[-0px] left-[-240px] z-30">
+        <div className=" absolute top-[350px]  left-60 z-30">
           <img
             src="/bunga merah.webp"
             alt="Ornament Atas"
@@ -84,7 +84,7 @@ export default function LandingIntro({ onOpen }: { onOpen: () => void }) {
           />
         </div>
         
-        <div className=" absolute top-[350px] right-[-240px] left-[-0px] z-30">
+        <div className=" absolute top-[350px] right-60  z-30">
           <img
             src="/bunga merah.webp"
             alt="Ornament Atas"
